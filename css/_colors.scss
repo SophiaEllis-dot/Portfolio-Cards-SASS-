@@ -1,0 +1,21 @@
+   $main-text-color: #35465c;
+    $primary-color: linear-gradient(to right top, #e7c3e1, #ddb6d3);
+    $glass-color: linear-gradient(
+        to right bottom,
+        rgba(220, 139, 245, 0.7),
+        rgba(221, 201, 223, 0.3)
+      );
+     $circle-color: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+      );
+      $shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+      $main-font: "Poppins", sans-serif;
+     
+/* Dark Mode SASS*/
+$DM-primary-color: linear-gradient((to right top, #17052b, #878b9e));
+$DM-main-text-color: #ffffff;
+$DM-secondary-color:#1e1e1f;
+$DM-background: linear-gradient((to right bottom, #17052b, #878b9e));
+/* Dark Mode SASS*/

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Portfolio Card's</title>
+
+
+</head>
+
+<body>
+
+    <main>
+        <section class="glass">
+            <div class="dashboard">
+
+                <button onclick="darkMode()">
+                    <img src="../img/half-moon.png" height="50px" width="50px">
+                </button>
+
+                <div class="user">
+                    <img src="../img/My project-1 (5).png" height="200px" alt="" />
+                    <h3>Sophia Ellis</h3>
+                    <p>UI/UX Designer</p>
+                </div>
+
+                <div class="links">
+                    <div class="link">
+                        <img src="../img/behance.svg" width="60px" height="100px" alt="" />
+                        <h2>Behance</h2>
+                    </div>
+                    <div class="link">
+                        <img src="../img/linkedin.svg" width="60px" height="100px" alt="" />
+                        <h2>LinkedIn</h2>
+                    </div>
+                    <div class="link">
+                        <img src="../img/github-logo-silhouette-in-a-square.png" width="60px" height="60px" alt="" />
+                        <h2>GitHub</h2>
+                    </div>
+
+                </div>
+                <div class="button">
+                    <h2>Go Back</h2>
+                    <a href="../index.html"><img src="../img/right-arrow.png" width="40px" height="40px" alt="" /></a>
+                </div>
+            </div>
+
+
+            <div class="skill-sets">
+
+
+                <div class="title">
+                    <h1>Secondary Skills</h1>
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+
+                        <div class="card-info">
+                            <h2>Fast Learner</h2>
+                            <div class="progress"></div>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-info">
+                            <h2>Communication skills</h2>
+                            <div class="progress"></div>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-info">
+                            <h2>Creative Thinker</h2>
+                            <div class="progress"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+    <script>
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
